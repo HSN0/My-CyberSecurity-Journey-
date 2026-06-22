@@ -17,8 +17,8 @@ cybersecurity professional.
 | TryHackMe | Linux Fundamentals Part 1 | 📚 In Progress |
 | TryHackMe | Linux Fundamentals Part 2 | 📚 In Progress |
 | TryHackMe | Jr Penetration Tester Path | 📚 In Progress |
-| OverTheWire Bandit | Levels 0–5 | ✅ Complete |
-| OverTheWire Bandit | Levels 6+ | 📚 In Progress |
+| OverTheWire Bandit | Levels 0–14 | ✅ Complete |
+| OverTheWire Bandit | Levels 15+ | 📚 In Progress |
 | TCM Security PEH Course | 2.5hrs of 15hrs | 📚 In Progress |
 | Kali Linux Lab | Active daily use | 📚 In Progress |
 
