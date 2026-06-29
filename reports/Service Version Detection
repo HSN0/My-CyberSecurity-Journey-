@@ -1,0 +1,21 @@
+## Service Version Detection
+
+Command: `nmap -sV 192.168.56.101`
+
+### Critical Findings
+
+| Port | Service | Version | Risk |
+|------|---------|---------|------|
+| 21 | FTP | vsftpd 2.3.4 | Critical — known backdoor CVE-2011-2523 |
+| 1524 | Bindshell | Metasploitable root shell | Critical — open root shell |
+| 23 | Telnet | Linux telnetd | High — plaintext credentials |
+| 6667 | IRC | UnrealIRCd | Critical — known backdoor |
+| 3306 | MySQL | 5.0.51a-3ubuntu5 | High — outdated version |
+| 5900 | VNC | Protocol 3.3 | High — old protocol |
+| 8180 | HTTP | Apache Tomcat 1.1 | High — multiple known exploits |
+
+### Summary
+Target exposes 22 open services with multiple critically 
+outdated versions. vsftpd 2.3.4 and UnrealIRCd contain 
+known backdoors exploitable without authentication.
+Immediate remediation required.
