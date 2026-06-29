@@ -37,7 +37,8 @@ cybersecurity professional.
 |-------|--------|
 | Linux Terminal | 📚 In Progress |
 | SSH | ✅ Comfortable |
-| Nmap | 📚 In Progress |
+| Nmap Scan — Metasploitable2 | First recon report written | ✅ Complete |
+| Pentest Reports | Network Recon Report | ✅ Complete |
 | Wireshark | 📚 In Progress |
 | Burp Suite | 📅 Planned Month 2 |
 | Metasploit | 📅 Planned Month 3 |
