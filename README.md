@@ -14,13 +14,16 @@ cybersecurity professional.
 |----------|----------|--------|
 | TryHackMe | Offensive Security Intro | ✅ Complete |
 | TryHackMe | Defensive Security Intro | ✅ Complete |
-| TryHackMe | Linux Fundamentals Part 1 | 📚 In Progress |
-| TryHackMe | Linux Fundamentals Part 2 | 📚 In Progress |
-| TryHackMe | Jr Penetration Tester Path | 📚 In Progress |
+| TryHackMe | Linux Fundamentals Part 1 | ✅ Complete |
+| TryHackMe | SOC Fundamentals | ✅ Complete |
+| TryHackMe | Junior Security Analyst Intro | ✅ Complete |
+| TryHackMe | SOC Role in Blue Team | ✅ Complete |
+| TryHackMe | Pre-Security / Jr Pentester / SOC Level 1 Paths | 📚 In Progress |
 | OverTheWire Bandit | Levels 0–14 | ✅ Complete |
-| OverTheWire Bandit | Levels 15+ | 📚 In Progress |
-| TCM Security PEH Course | 2.5hrs of 15hrs | 📚 In Progress |
-| Kali Linux Lab | Active daily use | 📚 In Progress |
+| OverTheWire Bandit | Levels 15+ | ⏸️ Paused (server issue) |
+| TCM Security PEH Course | ~3.5hrs of 15hrs | 📚 In Progress |
+| Kali Linux Lab | Active daily use | ✅ Complete |
+| Metasploitable2 Lab | Full vulnerability assessment done | ✅ Complete |
 
 ## Certifications
 | Certification | Provider | Status |
@@ -28,32 +31,40 @@ cybersecurity professional.
 | Offensive Security Intro | TryHackMe | ✅ Completed |
 | Defensive Security Intro | TryHackMe | ✅ Completed |
 | Linux Fundamentals Part 1 | TryHackMe | ✅ Completed |
-| CompTIA Security+ | CompTIA | 📅 Planned Month 3 |
-| eJPT | eLearnSecurity | 📅 Planned Month 4-5 |
-| OSCP | Offensive Security | 📅 Planned Year 2 |
+| CompTIA Security+ | CompTIA | 📅 Planned |
+| eJPT | eLearnSecurity | 📅 Planned |
+| OSCP | Offensive Security | 📅 Planned |
 
 ## Skills
 | Skill | Status |
 |-------|--------|
-| Linux Terminal | 📚 In Progress |
+| Linux Terminal | ✅ Comfortable |
 | SSH | ✅ Comfortable |
-| Nmap Scan — Metasploitable2 | First recon report written | ✅ Complete |
-| Pentest Reports | Network Recon Report | ✅ Complete |
-| Wireshark | 📚 In Progress |
-| Burp Suite | 📅 Planned Month 2 |
-| Metasploit | 📅 Planned Month 3 |
-| Python Scripting | 📅 Planned Month 2 |
-| Active Directory | 📅 Planned Month 3 |
-| SIEM/Splunk | 📅 Planned Month 3 |
+| Nmap (recon + service detection) | ✅ Comfortable |
+| Wireshark (traffic analysis, credential capture) | ✅ Comfortable |
+| Nessus / Vulnerability Scanning | ✅ Comfortable |
+| Report Writing | ✅ Comfortable |
+| Burp Suite | 📅 Planned |
+| Metasploit | 📅 Planned |
+| Python Scripting | 📅 Planned |
+| Active Directory | 📅 Planned |
+| SIEM/Splunk | 📅 Planned |
 
 ## Repository Structure
 - `/bandit-writeups` — OverTheWire Bandit level notes
-- `/tryhackme-notes` — TryHackMe room summaries
 - `/reports` — Vulnerability assessment and pentest reports
-- `/scripts` — Python and bash tools
 - `/cheatsheets` — Command references and notes
 
 ## Projects
+
+### Full Vulnerability Assessment — Metasploitable2
+Combined Nmap + Wireshark + Nessus assessment identifying 
+69 vulnerabilities including critical unauthenticated 
+remote-shell access. Includes packet-level proof of 
+successful credential capture. 
+[See full report](reports/metasploitable2-nmap-report.md)
+Status: ✅ Complete
+
 ### RepSmartLK
 E-commerce platform with WhatsApp order integration.
 Conceptualized solution, managed API integration, 
@@ -61,9 +72,9 @@ deployed on Netlify.
 Status: ✅ Live
 
 ### Cybersecurity Home Lab
-Kali Linux + Ubuntu VMs in VirtualBox.
+Kali Linux + Ubuntu + Metasploitable2 in VirtualBox.
 Active daily practice environment.
-Status: 📚 Active — In Progress
+Status: ✅ Active
 
 ## Goals
 - [ ] Tier 1 SOC Analyst role — Target Month 4
