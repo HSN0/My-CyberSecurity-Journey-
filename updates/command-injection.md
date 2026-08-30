@@ -3,14 +3,14 @@
 ## Baseline
 Pinging a normal IP address returns expected output — no anomaly.
 
-![Baseline ping](../command-injection-baseline.png)
+![Baseline ping](./command-injection-baseline.png)
 
 ## Exploit
 Appending `&& whoami` to the same field executes a second command
 that was never intended by the application. Confirms the web server
 process is running as `www-data`.
 
-![whoami injection result](../command-injection-whoami.png)
+![whoami injection result](./command-injection-whoami.png)
 
 ## Root cause
 User input (meant to be a single IP address) is passed directly into
