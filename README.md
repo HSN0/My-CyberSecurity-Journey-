@@ -7,7 +7,7 @@ cybersecurity professional.
 | Course | Institution | Status |
 |--------|-------------|--------|
 | Cybersecurity & Ethical Hacking | IIT Professional Development | ✅ Completed |
-| Diploma — Cybersecurity & Ethical Hacking | SITC | 📚 In Progress |
+| Diploma — Cybersecurity & Ethical Hacking | SITC | ✅ Completed |
 
 ## Current Progress
 | Platform | Activity | Status |
