@@ -6,8 +6,9 @@ cybersecurity professional.
 ## Academic Background
 | Course | Institution | Status |
 |--------|-------------|--------|
-| Cybersecurity & Ethical Hacking | IIT Professional Development | ✅ Completed |
+| Cybersecurity & Network and System Administration | IIT Professional Development | ✅ Completed |
 | Diploma — Cybersecurity & Ethical Hacking | SITC | ✅ Completed |
+| HND - Cybersecurity & Networking | Winsys | 📚 In Progress |
 
 ## Current Progress
 | Platform | Activity | Status |
